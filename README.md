@@ -2,10 +2,40 @@
 
 This utility is to make sure about the deployment of the entire setup required for my purpose.
 
+## System setup
+
+Make use of the following softwares(ubuntu only):
+
+### Programming
+1. Firefox
+2. Python3.8
+3. Rust
+4. C/C++(GNU)
+
+### DBMS
+1. SQLite
+2. PostgreSQL
+3. MongoDB
+
+### Disk Utils
+1. GParted
+
+### Screen capture
+1. Kazam
+2. Spectacle
+
+## Python setup
+
 It makes use of pip to install everything required by the work environments across multiple projects.
 This package makes sure about the Do Not Repeat Yourself logic.
 
-## List of packages
+Use the following command to setup python fast.
+
+```shell
+sudo apt install python3.8 python3.8-dev python3.8-venv python3.8-dbg
+```
+
+### List of python packages
 
 1. Flask
 2. Flask-WTF
@@ -25,16 +55,16 @@ This package makes sure about the Do Not Repeat Yourself logic.
 16. MongoDB
 17. PyMongo
 18. Compass(MongoDB utility for working with collections and exploring them)
-19. venv
+19. VirtualEnv
 20. beautifulsoup4
-21. lxml
+21. lxml(required for BS4 Parsing)
 22. feedparser(RSS)
 21. SciPy
 22. SymPy
 23. httplib2
-24. pandas
+24. PanDas(Dataset loader)
 
-## Post installation installations
+### Post installation installations
 
 Setup NLTK for use.
 
